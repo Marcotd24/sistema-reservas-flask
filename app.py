@@ -10,5 +10,6 @@ def inicio():
 def cita(paciente):
     return f"Hola {paciente}, tu cita médica está en proceso de confirmación."
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
